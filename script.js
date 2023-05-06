@@ -5,7 +5,7 @@ window.scrollTo(0,0)
     document.getElementById("ele_2").style.color ="#007294"
     document.getElementById("ele_3").style.color ="#007294"
     document.getElementById("ele_4").style.color ="#007294"
-    document.getElementById("nav_mar").style.marginTop ="1.1rem"
+    document.getElementById("nav_mar").style.marginTop ="1.2rem"
 
 
 function scrollFunction() {
@@ -26,7 +26,7 @@ function scrollFunction() {
     document.getElementById("ele_2").style.color ="#007294"
     document.getElementById("ele_3").style.color ="#007294"
     document.getElementById("ele_4").style.color ="#007294"
-    document.getElementById("nav_mar").style.marginTop ="1.1rem"
+    document.getElementById("nav_mar").style.marginTop ="1.2rem"
 
   }
 }
