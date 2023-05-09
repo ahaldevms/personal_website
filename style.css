@@ -22,3 +22,36 @@
 #card_11{
   display: table-cell;
 }
+
+.about_animation{
+  width: 246px;
+  overflow: hidden;
+}
+.about_animation .text{
+  position: relative;
+  color: #00a271;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+.about_animation .text.first-text{
+  color: black;
+}
+.text.sec-text:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  border-left: 2px solid #00a271;
+  animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+  40%, 60%{
+      left: calc(100% + 4px);
+  }
+  100%{
+      left: 0%;
+  }
+}
