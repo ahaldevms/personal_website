@@ -12,8 +12,8 @@
 <body>
  
 
-    <header id="navbarid" style="position: fixed; width: 100%; z-index: 2;background-color: transparent; transition: all .3s ease;">
-      <div class="row" id="nav_mar" style="transition: all .3s ease;">
+    <header id="navbarid" style="position: fixed; width: 100%; z-index: 2;background-color: transparent; transition: all .4s ease;">
+      <div class="row" id="nav_mar" style="transition: all .4s ease;">
           <div class="col-md-6 col-9 p-2 text-white "  class="img-fluid">
               <h2 class="Ahal_font" style=" padding-left: 2rem; font-weight: 400;" id="web_name">Ahal Dev</h2>  
           </div>
@@ -88,10 +88,10 @@
 
 <!--Service section start-->
     <section style="background-color: #000b08;">
-        <div class="container" >
+        <div class="container " id="cont" >
           <h1 class="text-center " style="padding-top: 4rem ; padding-bottom: 3rem; color: white;">Services</h1>
-          <div class="row row-eq-height " style="padding-bottom: 6rem;">
-            <div class="col-md-4">
+          <div class="row" style="padding-bottom: 6rem;" id="row-00" >
+            <div class="col-md-4 pt-5" id="card-00">
               <div onmouseover="card_1_o()" onmouseleave="card_1_l()"  class="card text-center p-3" style=" transition: all .3s ease; background-color: #2e2e2e;" id="card_1_bg">
                 <div id="card_1" style="transition: all .3s ease;" >
                   <i class="fa-solid fa-video display-3" style="color: #00a271; transition: all .3s ease; " id="card_1_ico"></i>
@@ -104,20 +104,20 @@
               </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 pt-5" id="card-00">
               <div onmouseover="card_2_o()" onmouseleave="card_2_l()"  class="card text-center p-3" style=" transition: all .3s ease; background-color: #2e2e2e;" id="card_2_bg">
                 <div id="card_2" style="transition: all .3s ease;">
                   <i class="fa-regular fa-image display-3" style="color: #00a271; transition: all .3s ease; " id="card_2_ico"></i>
                   <div class="card-body"  style="color: white;">
                     <h5 class="card-title">Photo Editor</h5>
-                    <p class="card-text">photo manupulation, retouching,etc..</p>
+                    <p class="card-text">Photo manupulation, retouching,etc...</p>
                     <a href="#" class="btn" id="card_2_but" style="background-color: #00a271; color: white;">Go somewhere</a>
                   </div>
                 </div>
               </div>
             </div>
 
-            <div  class="col-md-4">
+            <div  class="col-md-4 pt-5" id="card-00">
               <div onmouseover="card_3_o()" onmouseleave="card_3_l()"  class="card text-center p-3" style=" transition: all .3s ease; background-color: #2e2e2e;" id="card_3_bg">
                 <div id="card_3" style="transition: all .3s ease;">
                   <i class="fa-solid fa-code display-3" style="color: #00a271; transition: all .3s ease; " id="card_3_ico"></i>
@@ -143,7 +143,7 @@
 
       </div>
       <div class="col-md-8 ms-auto">
-        <form id="submit-form" method="POST" action="https://script.google.com/macros/s/AKfycbzaMsDayf8N0wU2jYmBDHQ7s1ICfC_zvryjaYoaSdldtdfy8b325XScFz9E-IulUspS/exec" id="res_form">
+        <form id="submit-form" method="POST" action="https://script.google.com/macros/s/AKfycbzKlows67ONZLmpiqRUF0dAbePhmScFTAF3BDIG_jbcIjkDxXccXRKw3pSWIJLUHM1b/exec" id="res_form">
           <input type="text" class="form-control " name="Name" placeholder="Name">
         <div class="row pt-4 ">
           <div class="col-md-6 mb-4">
@@ -167,13 +167,25 @@
     <script src="https://kit.fontawesome.com/ac0df2a824.js" crossorigin="anonymous"></script>
 
     <script>
-            form.addEventListener('submit', e => {
-              e.preventDefault()
-              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
-                .catch(error => console.error('Error!', error.message))
-            })
-    </script>
+      $("#submit-form").submit((e)=>{
+          e.preventDefault()
+          $.ajax({
+              url:"",
+              data:$("#submit-form").serialize(),
+              method:"post",
+              
+              success:function (response){
+                  alert("Form submitted successfully")
+                  window.location.reload()
+                  window.location.href="https://google.com"
+              },
+              error:function (err){
+                  alert("Something Error")
+  
+              }
+          })
+      })
+  </script>
 
 </body>
 </html>

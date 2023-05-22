@@ -87,6 +87,7 @@ function card_3_l(){
 }
 
 
+
 const text = document.querySelector(".sec-text");
 
         const textLoad = () => {
