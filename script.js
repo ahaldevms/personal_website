@@ -85,6 +85,31 @@ function card_3_l(){
   
   
 }
+function mo_pho_l(){
+
+  document.getElementById("pho_l").style.color="#00a271"
+
+}
+
+function ml_pho_l(){
+
+  document.getElementById("pho_l").style.color="#3c3f3e"
+
+}
+function mo_mail_l(){
+
+  document.getElementById("mail_l").style.color="#00a271"
+
+}
+
+function ml_mail_l(){
+
+  document.getElementById("mail_l").style.color="#3c3f3e"
+
+}
+
+
+
 
 
 
