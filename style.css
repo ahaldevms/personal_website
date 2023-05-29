@@ -9,6 +9,19 @@
     background-size: cover;
     background-attachment: fixed;
 }
+
+.home1 { 
+  display: flex;
+  /* background: url(images/banner.jpg) no-repeat center; */
+  
+  background-image: url("https://drive.google.com/file/d/11Ox-cps2FgMaGdrynbYyNOn7wGfuTURU/preview");
+  
+  height: 100vh;
+  color: #fff;
+  min-height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
+}
 .navbar-toggler {
     text-decoration: none;
     outline: 0;

@@ -6,6 +6,7 @@ window.scrollTo(0,0)
     document.getElementById("ele_3").style.color ="#00a271"
     document.getElementById("ele_4").style.color ="#00a271"
     document.getElementById("nav_mar").style.marginTop ="1.2rem"
+    document.getElementById("ele_5").style.color ="#00a271"
 
     
     
@@ -17,8 +18,8 @@ function scrollFunction() {
     document.getElementById("ele_2").style.color ="white"
     document.getElementById("ele_3").style.color ="white"
     document.getElementById("ele_4").style.color ="white"
-    document.getElementById("ele_4").style.color ="white"
     document.getElementById("nav_mar").style.marginTop ="0rem"
+    document.getElementById("ele_5").style.color ="white"
 
   } else {
     document.getElementById("navbarid").style.backgroundColor = "transparent";
@@ -28,6 +29,7 @@ function scrollFunction() {
     document.getElementById("ele_3").style.color ="#00a271"
     document.getElementById("ele_4").style.color ="#00a271"
     document.getElementById("nav_mar").style.marginTop ="1.2rem"
+    document.getElementById("ele_5").style.color ="#00a271"
 
   }
 }
