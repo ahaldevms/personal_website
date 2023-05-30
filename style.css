@@ -1,7 +1,7 @@
 .home { 
     display: flex;
     /* background: url(images/banner.jpg) no-repeat center; */
-    background-image: url("https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?cs=srgb&dl=art-artistic-background-1103970.jpg&fm=jpg");
+    background-image: url("https://res.cloudinary.com/dufkvcmoh/image/upload/v1685341584/personal_website/rwimzpmapblfxqg4xhlh.jpg");
     
     height: 100vh;
     color: #fff;
@@ -14,7 +14,7 @@
   display: flex;
   /* background: url(images/banner.jpg) no-repeat center; */
   
-  background-image: url("https://drive.google.com/file/d/11Ox-cps2FgMaGdrynbYyNOn7wGfuTURU/preview");
+  background-image: url("https://res.cloudinary.com/dufkvcmoh/image/upload/v1685341587/personal_website/anmy4blyit4xpszvmou4.jpg");
   
   height: 100vh;
   color: #fff;
@@ -25,7 +25,7 @@
 .navbar-toggler {
     text-decoration: none;
     outline: 0;
-    box-shadow: 0px 0px 0px .1rem #90e5ff
+    box-shadow: 0px 0px 0px .1rem #66dfba
   }
 
 .navbar-toggler-icon {
