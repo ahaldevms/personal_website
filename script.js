@@ -110,6 +110,12 @@ function ml_mail_l(){
 
 }
 
+function click_project(){
+
+  alert("Currently Not Avilable");
+
+}
+
 
 
 
