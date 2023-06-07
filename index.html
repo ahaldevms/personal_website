@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +8,7 @@
     <link rel="icon" href=".\images\head icon.png" type="image/gif">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
  
@@ -50,14 +51,14 @@
 
 
 
-    <section id="Home" class="home p-5" >
+    <section id="Home" class="home p-5" style="transition: all 1.6s ease;" >
             <div class="container " style="padding-top: 7rem;">
                 <div class="row align-items-center">
                     <div class="col-md-5">
                          <img onmouseover="img_home_o()" onmouseleave="img_home_l()" id="img_home" src=".\images\AD logo.png" alt=""  class="img-fluid rounded-circle ms-auto">
                     </div>
                     <div class="col-md-7 p-5">
-                        <h1 style="color: #192525; ">Ahal Dev MS</h1>
+                        <h1 class="TEXT" style="color: #192525; ">Ahal Dev MS</h1>
                         <h3 style="color: #1e2427; ">Web designer, Video editor, Photo editor <br></h3>
                         <h5 style="color: #25303b; ">Kozhikode, Kerala, India</h5>
                         <p  style="color: #294141; ">"You are the average of 5 people you hang around"</p>
@@ -69,7 +70,7 @@
         </section>
 
 <!--About section start-->
-        <section>
+        <section style="background-color: rgb(247, 247, 247);">
           <div class="container">
             <h1 class="text-center " style="padding-top: 4rem ; padding-bottom: 3rem; color: black; font-family: 'Playfair Display', serif;">About Me</h1>
             <div class="row">
@@ -82,7 +83,7 @@
                 <h5 style="font-weight: 400;">I am Ahal Dev MS and I was born on 8th september 2006.  I like web designing video editing photo editing and I study it myself and now I am a intermediate web designer and editor</h5>
               </div>
               <div class="col-md-5 " style="padding-bottom: 5rem;">
-                <img  src=".\images\YT AD logo.png" alt=""  class="img-fluid rounded-circle ms-auto">
+                <img  src=".\images\YT AD logo.png" alt=""  class=" image_rev img-fluid rounded-circle ms-auto">
               </div>
             </div>
           </div>
@@ -90,7 +91,7 @@
 <!--About section end-->
 
 <!--Service section start-->
-    <section style="background-color: #000b08;">
+    <section style="background-color: #141414;">
         <div class="container " id="cont" >
           <h1 class="text-center " style="padding-top: 4rem ; padding-bottom: 3rem; color: white; font-family: 'Playfair Display', serif;">Services</h1>
           <div class="row" style="padding-bottom: 6rem;" id="row-00" >
@@ -200,7 +201,8 @@
           })
       })
   </script>
-
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+ 
 </body>
 </html>
 

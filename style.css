@@ -1,7 +1,11 @@
+
+
+
+
 .home { 
     display: flex;
     /* background: url(images/banner.jpg) no-repeat center; */
-    background-image: url("https://res.cloudinary.com/dufkvcmoh/image/upload/v1685341584/personal_website/rwimzpmapblfxqg4xhlh.jpg");
+    background-image: url("https://res.cloudinary.com/dufkvcmoh/image/upload/v1686149990/personal_website/ib2je5datfvpyya6kjyw.jpg");
     
     height: 100vh;
     color: #fff;
@@ -54,7 +58,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #fff;
+  background-color: rgb(247, 247, 247);
   border-left: 2px solid #00a271;
   animation: animate 4s steps(12) infinite;
 }

@@ -20,6 +20,8 @@ function scrollFunction() {
     document.getElementById("ele_4").style.color ="white"
     document.getElementById("nav_mar").style.marginTop ="0rem"
     document.getElementById("ele_5").style.color ="white"
+    document.getElementById("Home").style.backgroundSize = "110% 110%"
+    
 
   } else {
     document.getElementById("navbarid").style.backgroundColor = "transparent";
@@ -30,8 +32,13 @@ function scrollFunction() {
     document.getElementById("ele_4").style.color ="#00a271"
     document.getElementById("nav_mar").style.marginTop ="1.2rem"
     document.getElementById("ele_5").style.color ="#00a271"
+    document.getElementById("Home").style.backgroundSize = "100% 100%"
+
+    
 
   }
+
+  
 }
 
 function card_1_o(){
@@ -141,3 +148,10 @@ const text = document.querySelector(".sec-text");
 
         textLoad();
         setInterval(textLoad, 16000);
+
+
+$(document).ready(function(){
+  $(".TEXT").waypoint(function(){
+    $(".TEXT").addClass("animate__animated animate__bounceInDown")
+  }, {offset: "80%"});
+});
