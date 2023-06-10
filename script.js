@@ -21,6 +21,7 @@ function scrollFunction() {
     document.getElementById("nav_mar").style.marginTop ="0rem"
     document.getElementById("ele_5").style.color ="white"
     document.getElementById("Home").style.backgroundSize = "110% 110%"
+
     
 
   } else {
@@ -35,10 +36,11 @@ function scrollFunction() {
     document.getElementById("Home").style.backgroundSize = "100% 100%"
 
     
+    
 
   }
-
   
+
 }
 
 function card_1_o(){
@@ -97,23 +99,32 @@ function card_3_l(){
 function mo_pho_l(){
 
   document.getElementById("pho_l").style.color="#00a271"
+  document.getElementById("pho_l").style.scale="1.3"
+  document.getElementById("pho_l").className="fa-solid fa-phone fa-beat-fade"
+  
 
 }
 
 function ml_pho_l(){
 
   document.getElementById("pho_l").style.color="#3c3f3e"
+  document.getElementById("pho_l").style.scale="1"
+  document.getElementById("pho_l").className="fa-solid fa-phone"
 
 }
 function mo_mail_l(){
 
   document.getElementById("mail_l").style.color="#00a271"
+  document.getElementById("mail_l").style.scale="1.3"
+  document.getElementById("mail_l").className="fa-solid fa-envelope fa-beat-fade"
 
 }
 
 function ml_mail_l(){
 
   document.getElementById("mail_l").style.color="#3c3f3e"
+  document.getElementById("mail_l").style.scale="1"
+  document.getElementById("mail_l").className="fa-solid fa-envelope"
 
 }
 
