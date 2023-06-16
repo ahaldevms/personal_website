@@ -139,7 +139,7 @@ function ml_skill_1(){
   document.getElementById("skill_1").style.scale="1"
 
 }
-
+/*hi*/
 function mo_skill_2(){
 
   document.getElementById("skill_2").style.scale="1.05"
