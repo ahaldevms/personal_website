@@ -128,6 +128,51 @@ function ml_mail_l(){
 
 }
 
+
+function mo_skill_1(){
+
+  document.getElementById("skill_1").style.scale="1.05"
+
+}
+function ml_skill_1(){
+
+  document.getElementById("skill_1").style.scale="1"
+
+}
+
+function mo_skill_2(){
+
+  document.getElementById("skill_2").style.scale="1.05"
+
+}
+function ml_skill_2(){
+
+  document.getElementById("skill_2").style.scale="1"
+
+}
+
+function mo_skill_3(){
+
+  document.getElementById("skill_3").style.scale="1.05"
+
+}
+function ml_skill_3(){
+
+  document.getElementById("skill_3").style.scale="1"
+
+}
+
+function mo_skill_4(){
+
+  document.getElementById("skill_4").style.scale="1.05"
+
+}
+function ml_skill_4(){
+
+  document.getElementById("skill_4").style.scale="1"
+
+}
+
 function click_project(){
 
   alert("Currently Not Avilable");
