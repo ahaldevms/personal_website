@@ -173,6 +173,41 @@ function ml_skill_4(){
 
 }
 
+
+
+function insta_o(){
+
+  document.getElementById("insta").style.color="#E1306C"
+
+}
+function insta_l(){
+
+  document.getElementById("insta").style.color="#000704"
+
+}
+
+function git_o(){
+
+  document.getElementById("git").style.color="#1f883d"
+
+}
+function git_l(){
+
+  document.getElementById("git").style.color="#000704"
+
+}
+
+function face_o(){
+
+  document.getElementById("face").style.color="#17A9FD"
+
+}
+function face_l(){
+
+  document.getElementById("face").style.color="#000704"
+
+}
+
 function click_project(){
 
   alert("Currently Not Avilable");
