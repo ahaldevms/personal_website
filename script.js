@@ -7,6 +7,7 @@ window.scrollTo(0,0)
     document.getElementById("ele_4").style.color ="#00a271"
     document.getElementById("nav_mar").style.marginTop ="1.2rem"
     document.getElementById("ele_5").style.color ="#00a271"
+    
 
     
     
@@ -21,6 +22,8 @@ function scrollFunction() {
     document.getElementById("nav_mar").style.marginTop ="0rem"
     document.getElementById("ele_5").style.color ="white"
     document.getElementById("Home").style.backgroundSize = "110% 110%"
+    Delete()
+  
 
     
 
@@ -41,6 +44,13 @@ function scrollFunction() {
   }
   
 
+
+
+}
+
+function Delete(){
+  const Element = document.getElementById("del");
+  Element.remove();
 }
 
 function card_1_o(){
