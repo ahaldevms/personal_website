@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahaldev</title>
+    <title>Ahal Dev</title>
     <link rel="icon" href=".\images\head icon.png" type="image/gif">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -19,6 +19,7 @@
   <!--splash screen start-->
     <div class="cover" id="del" style=" z-index: 5; transition: all ease; ">
       <img src=".\images\splash_icon_G.png" class="img-fluid rounded-circle" alt="" id="icon">
+       
       
 
     </div>
@@ -67,7 +68,7 @@
 
 
     <section id="Home" class="home p-5" style="transition: all 1.6s ease;" >
-            <div class="container-fluid sp-md-5" style="padding-top: 12rem; ">
+            <div class="container-fluid sp-md-5" style="padding-top: 9rem; ">
                 <div class="row align-items-center">
                   <div class="col-md-1">
 
@@ -105,7 +106,7 @@
                   <span class="text sec-text">Freelancer</span>
               </div>
                 <h5 style="font-weight: 400;">I am Ahal Dev MS and I was born on 8th september 2006.  I like web designing video editing photo editing and I study it myself and now I am a intermediate web designer and editor</h5>
-                <a href=".\Ahal Dev MS.pdf" download="ahal" class="btn mt-4"  style="background-color: #00a271; color: white;">Know More</a>
+                <a onmouseover="about_o()" onmouseleave="about_l()" id="about_but" href=".\Ahal Dev MS.pdf" download="ahal" class="btn mt-4"  style="background-color: #00a271; color: white;">Know More</a>
               </div>
               <div class="col-md-3 " style="padding-bottom: 5rem;">
                 <img  src=".\images\Ahal Dev.jpg" alt=""  class=" image_rev img-fluid rounded-circle ms-auto">
@@ -246,21 +247,23 @@
       </table>
 
       </div>
+      <!--contact section form start-->
       <div class="col-md-7 ms-auto">
-        <form class="pt-4  text-center" id="submit-form" method="POST" action="" id="res_form">
-          <input type="text" class="form-control " name="Name" placeholder="Name">
+        <form class="pt-4  text-center" name="Form_data" id="submit-form" method="POST" action="" id="res_form"  >
+          <input type="text" class="form-control " name="Name" placeholder="Name" required>
         <div class="row pt-4 ">
           <div class="col-md-6 mb-4">
-            <input type="text" class="form-control" name="Phone Number" placeholder="Phone Number">
+            <input type="text" class="form-control" name="Phone Number" placeholder="Phone Number" pattern="[6789][0-9]{9}" required>
           </div>
           <div class="col-md-6 mb-4">
-            <input type="email" class="form-control" name="Email" placeholder="E mail" >
+            <input type="email" class="form-control" name="Email" placeholder="E mail" required >
           </div>
         </div>
-        <textarea type="text" class="form-control h-50 "  name="Message" placeholder="Message" ></textarea>
-        <input type="submit"  class="btn w-20 mt-4 " style="background-color: #00a271; font-weight: 700; color: white; border-radius: 50px; " value="Submit">
+        <textarea type="text" class="form-control  " style="height: 8rem;"  name="Message" placeholder="Message" required ></textarea>
+        <input onmouseover="submit_o()" onmouseleave="submit_l()" id="submit_but" type="submit"  class="btn  mt-4 " style="background-color: #00a271; color: white; " value="Submit">
         </form>
       </div>
+      <!--contact section form end-->
       
     </div>
   </div>
@@ -275,9 +278,9 @@
     <li onmouseover="git_o()" onmouseleave="git_l()" style="padding-left: .5rem; padding-bottom: .5rem;"><a id="git" href="https://github.com/ahaldevms?tab=repositories" class="fa-brands fa-github nav-link fa-lg" style="color: #000704;"></a></li>
     <li onmouseover="face_o()" onmouseleave="face_l()" style="padding-left: .5rem;"><a id="face" href="https://www.facebook.com/profile.php?id=100089189898595" class="fa-brands fa-facebook nav-link fa-lg" style="color: #000704;"></a></li>
   </ul>
-  <p class="text-center" style="font-size: smaller;">Copyright © 2023 Ahal Dev MS</p>
+  <p class="text-center" style="font-size: smaller;">Copyright &copy; 2023 Ahal Dev MS</p>
  </footer>
-<!--foorer section end-->
+<!--foorer section end ©-->
 
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

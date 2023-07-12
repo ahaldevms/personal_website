@@ -224,6 +224,45 @@ function click_project(){
 
 }
 
+function about_o(){
+
+  document.getElementById("about_but").style.backgroundColor="rgb(247, 247, 247)"
+  document.getElementById("about_but").style.color="#00a271"
+  document.getElementById("about_but").style.borderStyle="solid"
+  document.getElementById("about_but").style.borderWidth=".1rem"
+  document.getElementById("about_but").style.borderColor="#00a271"
+
+}
+function about_l(){
+
+  document.getElementById("about_but").style.color="rgb(247, 247, 247)"
+  document.getElementById("about_but").style.backgroundColor="#00a271"
+  document.getElementById("about_but").style.borderStyle="solid"
+  document.getElementById("about_but").style.borderWidth=".05rem"
+  document.getElementById("about_but").style.borderColor="#00a271"
+
+}
+
+function submit_o(){
+
+  document.getElementById("submit_but").style.backgroundColor="rgb(247, 247, 247)"
+  document.getElementById("submit_but").style.color="#00a271"
+  document.getElementById("submit_but").style.borderStyle="solid"
+  document.getElementById("submit_but").style.borderWidth=".1rem"
+  document.getElementById("submit_but").style.borderColor="#00a271"
+
+}
+function submit_l(){
+
+  document.getElementById("submit_but").style.color="rgb(247, 247, 247)"
+  document.getElementById("submit_but").style.backgroundColor="#00a271"
+  document.getElementById("submit_but").style.borderStyle="solid"
+  document.getElementById("submit_but").style.borderWidth=".05rem"
+  document.getElementById("submit_but").style.borderColor="#00a271"
+
+}
+
+
 
 
 
