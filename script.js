@@ -106,6 +106,26 @@ function card_3_l(){
   
   
 }
+
+function card_4_o(){
+  document.getElementById("card_4").style.scale="1.06"
+  document.getElementById("card_4_bg").style.background="#00a271"
+  document.getElementById("card_4_ico").style.color="white"
+  document.getElementById("card_4_but").style.backgroundColor="white"
+  document.getElementById("card_4_but").style.color="#00a271"
+  
+}
+function card_4_l(){
+  document.getElementById("card_4").style.scale="1"
+  document.getElementById("card_4_bg").style.background="#2e2e2e"
+  document.getElementById("card_4_ico").style.color="#00a271"
+  document.getElementById("card_4_but").style.backgroundColor="#00a271"
+  document.getElementById("card_4_but").style.color="white"
+  
+  
+}
+
+
 function mo_pho_l(){
 
   document.getElementById("pho_l").style.color="#00a271"
@@ -180,6 +200,40 @@ function mo_skill_4(){
 function ml_skill_4(){
 
   document.getElementById("skill_4").style.scale="1"
+
+
+}
+
+function mo_skill_5(){
+
+  document.getElementById("skill_5").style.scale="1.05"
+
+}
+function ml_skill_5(){
+
+  document.getElementById("skill_5").style.scale="1"
+
+}
+
+function mo_skill_6(){
+
+  document.getElementById("skill_6").style.scale="1.05"
+
+}
+function ml_skill_6(){
+
+  document.getElementById("skill_6").style.scale="1"
+
+}
+
+function mo_skill_7(){
+
+  document.getElementById("skill_7").style.scale="1.05"
+
+}
+function ml_skill_7(){
+
+  document.getElementById("skill_7").style.scale="1"
 
 }
 
@@ -272,7 +326,7 @@ const text = document.querySelector(".sec-text");
 
         const textLoad = () => {
             setTimeout(() => {
-                text.textContent = "Freelancer";
+                text.textContent = "Graphic Designer";
             }, 0);
             setTimeout(() => {
                 text.textContent = "Web Desinger";
