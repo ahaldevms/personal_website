@@ -36,7 +36,7 @@ function scrollFunction() {
     document.getElementById("ele_4").style.color ="#00a271"
     document.getElementById("nav_mar").style.marginTop ="1.2rem"
     document.getElementById("ele_5").style.color ="#00a271"
-    document.getElementById("Home").style.backgroundSize = "cover"
+    document.getElementById("Home").style.backgroundSize = "100%"
 
     
     
