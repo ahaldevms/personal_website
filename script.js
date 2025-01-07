@@ -21,7 +21,7 @@ function scrollFunction() {
     document.getElementById("ele_4").style.color ="white"
     document.getElementById("nav_mar").style.marginTop ="0rem"
     document.getElementById("ele_5").style.color ="white"
-    document.getElementById("Home").style.backgroundSize = "110% 110%"
+    document.getElementById("Home").style.backgroundSize = "cover * 2"
     Delete()
   
 
